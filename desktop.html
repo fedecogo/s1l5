@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../s1l5/Esercizio/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../s1l5/Esercizio/css/style.css"
+    />
+    <style>
+      p {
+        font-size: x-large;
+      }
+      body {
+        margin: 0px;
+
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.65;
+        color: #393d41;
+      }
+      .bottone {
+        background-color: red;
+        color: white;
+        width: 140px;
+        height: 40px;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 7px;
+      }
+      header {
+        background-color: black;
+      }
+      header img {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        padding-left: 30px;
+      }
+      nav {
+        background-image: url(Esercizio/images/banner.jpg);
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      nav h1 {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        border-top: 20px;
+        font-size: 49px;
+        color: rgb(25, 105, 105);
+      }
+      nav p {
+        text-align: center;
+        border-left: 50px;
+        margin-left: 60px;
+        margin-right: 60px;
+        border-right: 50px;
+      }
+      h2 {
+        margin-top: 50px;
+        color: rgb(25, 105, 105);
+      }
+      main {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .anti-cerchio .cerchio {
+        flex: 1;
+        padding: 20px;
+      }
+      .anti-cerchio {
+        display: inline-block;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+      }
+      .cerchio {
+        width: 500px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        text-align: right;
+      }
+      .cerchio img {
+        width: 100%;
+        height: auto;
+      }
+      .red {
+        background-color: red;
+      }
+      .red p,
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      .red h1 {
+        text-align: center;
+        padding-top: 50px;
+        margin-top: 70px;
+      }
+      .red1 {
+        margin-top: 10px;
+      }
+      .red2 {
+        margin-bottom: 0px;
+      }
+      .red3 {
+        margin-top: 7px;
+        padding-bottom: 40px;
+        margin-bottom: 80px;
+        font-size: medium;
+      }
+      .note1 {
+        width: 350px;
+        border-style: groove;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+      }
+      h3 {
+        margin-top: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        color: rgb(25, 105, 105);
+      }
+      .note1 p {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .note2,
+      .note3 {
+        width: 350px;
+        border-style: groove;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      footer {
+        background-color: rgb(25, 105, 105);
+        height: 399px;
+      }
+      h4 {
+        font-size: xx-large;
+        padding-top: 40px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+      }
+
+      hr {
+        width: 50%;
+      }
+      footer,
+      p {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      footer i {
+        margin-right: 10px;
+        font-size: 18px;
+        color: white;
+      }
+
+      .copy {
+        margin-bottom: 40px;
+        color: white;
+      }
+      .b {
+        color: white;
+      }
+      .main2 div {
+        display: inline-block;
+        text-align: center;
+      }
+      .note1 {
+        margin-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Esercizio/images/logo.png" alt="logo" width="200px" />
+    </header>
+    <nav>
+      <h1>Corso Web Developer</h1>
+      <p>
+        Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono
+        arricchire il CV, tu pensa ad arricchire le tue competenze.
+      </p>
+      <button class="bottone">PARTIAMO!</button>
+    </nav>
+    <main>
+      <div class="cerchio">
+        <img src="Esercizio/images/notebook.jpg" />
+      </div>
+      <div class="anti-cerchio">
+        <h2>Tutti ti cercheranno</h2>
+        <p>
+          Sono 30.000 in Italia le posizioni di developer scoperte, scegli
+          quella che ti stimola di più.
+        </p>
+        <h2>Lavora dove vuoi</h2>
+        <p>Lavora da casa, in riva al mare o in montagna.</p>
+
+        <h2>Scegli il tuo ruolo</h2>
+        <p>Potrai scegliere se essere Azienda, Freelance o Startup</p>
+        <h2>Lavoro in libertà</h2>
+        <p>
+          Non serve lavorare in ufficio per essere creatori di prodotti
+          digitali.
+        </p>
+      </div>
+    </main>
+    <div class="red">
+      <h1>Epicode garantisce</h1>
+      <p class="red1">
+        "3 mesi intensivi di corso che cambieranno radicalmente la tua vita".
+      </p>
+      <p class="red2">Mario Rossi</p>
+      <p class="red3">CEO, Epicode</p>
+    </div>
+    <div class="main2">
+      <div class="note1">
+        <img
+          class="fotodiv"
+          src="Esercizio/images/foto1.jpg"
+          alt="foto1"
+          width="350px"
+          height="210px"
+        />
+        <h3>Il tuo PC</h3>
+        <p>
+          Se vuoi diventare developer è l’unico strumento di cui hai bisogno.
+        </p>
+      </div>
+      <div class="note2">
+        <img
+          class="fotodiv"
+          src="Esercizio/images/foto2.jpg"
+          alt="foto2"
+          width="350px"
+          height="210px"
+        />
+        <h3>Impara ora</h3>
+        <p>
+          Impara da chi diventerai tra qualche anno, e diventa una rockstar come
+          loro.
+        </p>
+      </div>
+      <div class="note3">
+        <img
+          class="fotodiv"
+          src="Esercizio/images/foto3.jpg"
+          alt="foto3"
+          width="350px"
+          height="210px"
+        />
+        <h3>Lavora subito</h3>
+        <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+      </div>
+    </div>
+    <footer>
+      <h4 class="b">Contattaci</h4>
+      <p class="b">
+        <a href="https://www.google.com"
+          ><i class="fas fa-phone"></i> +3911223456</a
+        >
+      </p>
+      <p class="b">
+        <a href="mailto:info@epicode.school"
+          ><i class="fas fa-envelope"></i> info@epicode.school</a
+        >
+      </p>
+      <p class="b">
+        <i class="fas fa-map-marker"></i> Via Appia 1 - 00100 Roma
+      </p>
+      <hr />
+      <p class="copy">
+        &copy;
+        <a href="https://www.pixabay.com" target="_blank"
+          >2021. Immagini di Pixabay</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
